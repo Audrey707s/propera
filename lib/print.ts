@@ -23,7 +23,7 @@ export function printNota(payment: any, ownerProfile: any) {
     .ftr{text-align:center;margin-top:20px;padding-top:12px;border-top:1px dashed #ccc;font-size:11px;color:#888}
   </style></head><body>
   <div class="hdr">
-    <div class="logo">🏠 KosManager</div>
+    <div class="logo">🏠 PROPERA</div>
     <div class="sub">${ownerProfile?.full_name||'Pemilik Properti'}${ownerProfile?.phone?' · '+ownerProfile.phone:''}</div>
     <div class="title">Nota Pembayaran Sewa</div>
     <div class="num">No: #${payment.id.substring(0,8).toUpperCase()}</div>
